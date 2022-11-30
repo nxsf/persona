@@ -1,0 +1,24 @@
+{
+  "name": "persona",
+  "author": {
+    "name": "Onyx Software Foundation",
+    "url": "http://nxsf.org",
+    "email": "mail@nxsf.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nxsf/persona.git"
+  },
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx waffle",
+    "deploy": "npx hardhat run script/deploy.js",
+    "node": "npx hardhat node"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "dotenv": "^16.0.3",
+    "hardhat": "^2.12.2"
+  }
+}
